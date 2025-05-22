@@ -27,7 +27,7 @@ const io = new Server(server, {
 // Constants
 const PORT = process.env.PORT || 5000;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/newchat';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://jaideep:Sjaideep04%40@cluster0.so2bzuz.mongodb.net/chatDB?retryWrites=true&w=majority';
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
 
 // Ensure uploads directory exists
